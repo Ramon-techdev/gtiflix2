@@ -17,6 +17,6 @@ class AtoresSeeder extends Seeder
             'nacionalidade_id' => 1],
             ['nome' => "Megan fox", 'descricao' => "Muito Lembrada",
             'nacionalidade_id' => 2], 
-        
+        );
     }
 }
