@@ -1,7 +1,7 @@
 <?php
 
 namespace Database\Seeders;
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -12,7 +12,7 @@ class AtoresSeeder extends Seeder
      */
     public function run(): void
     {
-        Db::table('atores')->insert(
+        DB::table('atores')->insert(
             ['nome' => "Wagner Moura", 'descricao' => "Ator foda barsileiro",
             'nacionalidade_id' => 1],
             ['nome' => "Megan fox", 'descricao' => "Muito Lembrada",
