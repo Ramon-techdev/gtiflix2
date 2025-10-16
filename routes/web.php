@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Ator;
+use App\Models\Filme;
 use App\Models\Genero;
 use App\Models\Nacionalidade;
 use App\Models\Produtora;
@@ -36,4 +37,9 @@ Route::get('/produtora', function () {
     dd($minhaNovaVariavel);
 });
 
+Route::get('/lista-filmes', function () {
+    $filmes = Filme::all();
+    return view('lista-filmes',
+    compact('filmes'));
+});
 

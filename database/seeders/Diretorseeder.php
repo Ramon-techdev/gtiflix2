@@ -14,10 +14,10 @@ class Diretorseeder extends Seeder
     {
         DB::table('diretores')->insert(
             ['nome'=>"Steven Spielberg"],
-            ['nome'=>""],
-            ['nome'=>""],
-            ['nome'=>""],
-            ['nome'=>""],
+            ['nome'=>"Christopher Nolan"],
+            ['nome'=>"Quentin Tarantino"],
+            ['nome'=>"James Cameron"],
+            ['nome'=>"Dario Argento"],
         );
     }
 }
