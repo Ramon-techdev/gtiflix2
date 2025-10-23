@@ -14,15 +14,17 @@ class Filmeseeder extends Seeder
     {
         DB::table('filmes')->insert(
         [
-            [
-                'nome'=>"Mad Max",
-                'descricao' => "ultimo homem da areia",
-            ],
+            
             ['nome'=>"Spider-Man"],
             ['nome'=>"O Lobo de Wall street"],
             ['nome'=>"John Wick"],
             ['nome'=>"O Último Samurai"],
         ]
         );
+         DB::table('filmes')->insert(
+         [
+             'nome'=>"Mad Max",
+             'descricao' => "ultimo homem da areia",
+         ]);
     }
 }

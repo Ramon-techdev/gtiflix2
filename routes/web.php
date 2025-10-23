@@ -7,9 +7,9 @@ use App\Models\Nacionalidade;
 use App\Models\Produtora;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 Route::get('/teste', function () {
     return 'Olá';
 });
@@ -37,9 +37,13 @@ Route::get('/produtora', function () {
     dd($minhaNovaVariavel);
 });
 
-Route::get('/lista-filmes', function () {
+Route::get('/', function () {
     $filmes = Filme::all();
     return view('lista-filmes',
     compact('filmes'));
 });
 
+Route::get('/detalhes-filmes/{filme}',
+function(Filme $filme){
+ return view('detalhes-filmes', compact('filme'));
+});
