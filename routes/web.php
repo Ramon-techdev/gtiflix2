@@ -46,4 +46,7 @@ Route::get('/', function () {
 Route::get('/detalhes-filmes/{filme}',
 function(Filme $filme){
  return view('detalhes-filmes', compact('filme'));
-});
+})->name('detalhes-filme');
+
+
+Route::view('/login','login')->name('login');
