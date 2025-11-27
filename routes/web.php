@@ -81,3 +81,8 @@ Route::get('/lista-filmes', function () {
     return view('lista-filmes',
     compact('filmes'));
 });
+
+Route::get('/detalhes-diretores/{diretores}',
+function(Diretor $diretores){
+ return view('detalhes-diretores', compact('diretores'));
+})->name('detalhes-diretores');

@@ -10,105 +10,65 @@
 
   <!-- Grid -->
   <div class="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+    @foreach($atores as $atores)
+    <!-- End Col -->
+
+
+    <!-- End Col -->
+
+
+    <!-- End Col -->
+@endforeach
+
+    <!-- End Col -->
+
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://outraspalavras.net/wp-content/uploads/2014/01/150125-Scorcese.jpg" alt="Avatar">
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          David Forren
+          {{$atores->nome}}
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Founder / CEO
+          O lobo de Wall Street
         </p>
       </div>
     </div>
     <!-- End Col -->
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://cdn.observatoriodocinema.com.br/2019/11/fin04_jw3_1sht_johnwick_vf.0.jpg" alt="Avatar">
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Amil Evara
+          Keanu Reeves
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          UI/UX Designer
+          Jonh Wick
         </p>
       </div>
     </div>
     <!-- End Col -->
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://i.dailymail.co.uk/i/pix/scaled/2014/12/30/2455711F00000578-0-image-a-16_1419969894692.jpg" alt="Avatar">
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Ebele Egbuna
+          Tom Hardy
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Support Consultant
+          Mad Max
         </p>
       </div>
     </div>
     <!-- End Col -->
 
     <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
+      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://i.pinimg.com/564x/3f/9d/a0/3f9da05d2d99497de94bb57f17993bef.jpg" alt="Avatar">
       <div class="mt-2 sm:mt-4">
         <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Maria Powers
+          Tom Cruise
         </h3>
         <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Director of sales
-        </p>
-      </div>
-    </div>
-    <!-- End Col -->
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Delia Pawelke
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Front-end Developer
-        </p>
-      </div>
-    </div>
-    <!-- End Col -->
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1624224971170-2f84fed5eb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Tom Lowry
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          UI/UX Designer
-        </p>
-      </div>
-    </div>
-    <!-- End Col -->
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Louise Donadieu
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Support Consultant
-        </p>
-      </div>
-    </div>
-    <!-- End Col -->
-
-    <div class="text-center">
-      <img class="rounded-xl sm:size-48 lg:size-60 mx-auto" src="https://images.unsplash.com/photo-1514222709107-a180c68d72b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
-      <div class="mt-2 sm:mt-4">
-        <h3 class="text-sm font-medium text-gray-800 sm:text-base lg:text-lg dark:text-neutral-200">
-          Jeff Fisher
-        </h3>
-        <p class="text-xs text-gray-600 sm:text-sm lg:text-base dark:text-neutral-400">
-          Project Manager
+          O último Samurai
         </p>
       </div>
     </div>
